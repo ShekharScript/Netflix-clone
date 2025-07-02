@@ -362,3 +362,86 @@ footer .call{
         gap: 25px;
     }
 }
+
+
+
+
+
+
+
+
+/* Hero Text Mobile Responsiveness */
+
+/* For tablets and small laptops */
+@media screen and (max-width: 1024px) {
+    .hero> :nth-child(1), .hero> :nth-child(2) {
+        font-size: 48px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 20px;
+    }
+    
+    .hero> :nth-child(4) {
+        font-size: 18px;
+    }
+}
+
+/* For tablets portrait */
+@media screen and (max-width: 768px) {
+    .hero> :nth-child(1), .hero> :nth-child(2) {
+        font-size: 38px;
+        padding: 0 20px;
+        line-height: 1.1;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 18px;
+        padding: 0 20px;
+        margin-top: 20px;
+    }
+    
+    .hero> :nth-child(4) {
+        font-size: 16px;
+        padding: 0 20px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+}
+
+/* For mobile phones */
+@media screen and (max-width: 480px) {
+    .hero> :nth-child(1), .hero> :nth-child(2) {
+        font-size: 32px;
+        padding: 0 15px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+    
+    .hero> :nth-child(4) {
+        font-size: 14px;
+        padding: 0 15px;
+        line-height: 1.4;
+    }
+}
+
+/* For very small screens */
+@media screen and (max-width: 360px) {
+    .hero> :nth-child(1), .hero> :nth-child(2) {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+    
+    .hero> :nth-child(3) {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    
+    .hero> :nth-child(4) {
+        font-size: 13px;
+        padding: 0 10px;
+    }
+}

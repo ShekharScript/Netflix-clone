@@ -38,6 +38,16 @@ nav {
     left: 10%;
     align-items: center;
 }
+@media screen and (max-width : 520px){
+    nav{
+        width : 100vw ;
+        justify-content: space-around;
+    }
+}
+
+
+
+
 
  nav div{
         display: flex;
